@@ -4,6 +4,10 @@
     ],
     "packageRules": [
         {
+            "matchUpdateTypes": ["minor", "patch"],
+            "enabled": false
+        },
+        {
             "matchPackageNames": ["execa", "commander"],
             "groupName": "execa and commander"
         }
